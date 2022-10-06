@@ -31,7 +31,7 @@ try
         {
             answre = answre1 * answre2;
         }
-        Answre.Add( answre);
+        Answre.Add(answre);
     }
     catch (Exception) { }
 }
