@@ -62,7 +62,6 @@ void calculator()
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Wrong input(Just number!)");
-            Console.WriteLine("*****************");
             Console.ResetColor();
         }
         Console.WriteLine("*****************");
@@ -73,8 +72,9 @@ void calculator()
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.DarkRed;
         Console.WriteLine("Wrong input(Just symbol!)");
-        Console.WriteLine("*****************");
         Console.ResetColor();
+        Console.WriteLine("*****************");
+        Ask();
     }
 }
 void Ask()
