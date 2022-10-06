@@ -29,7 +29,7 @@ try
         }
         if (symbol == '-')
         {
-            answre = answre1 * answre2;
+            answre  = answre1 * answre2;
         }
         Answre.Add(answre);
     }
